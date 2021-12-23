@@ -6,7 +6,7 @@ import locale
 from decimal import Decimal
 from urllib.parse import quote
 from django.utils.functional import Promise
-from requests.packages.urllib3.poolmanager import PoolManager
+
 
 
 class DjangoUnicodeDecodeError(UnicodeDecodeError):
